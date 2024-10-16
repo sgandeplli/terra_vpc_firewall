@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                git branch: 'master', url: https://github.com/sgandeplli/terra_vpc_firewall.git' 
+                git branch: 'master', url: 'https://github.com/sgandeplli/terra_vpc_firewall.git' 
             }
         }
         stage('Hello2') {
