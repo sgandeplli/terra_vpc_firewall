@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("/home/hr377/gcp.json")
+  //credentials = file("/home/hr377/gcp.json")
   project = "primal-gear-436812-t0"  # Replace with your project ID
   region  = "us-central1"           # Change to your preferred region
 }
